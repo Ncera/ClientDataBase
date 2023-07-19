@@ -1,0 +1,18 @@
+.main{
+    width: 950px;
+    height: 60px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(240, 248, 248);
+}
+
+.smile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.icons{
+    width: 35px;
+    height: 35px;
+}

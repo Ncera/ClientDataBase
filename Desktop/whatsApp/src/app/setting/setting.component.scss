@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-containa{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(43, 189, 164);
+}
+
+.dots{
+    display: flex;
+    margin-left: 25px;
+}
+
+.dot1{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.dot2{
+    width: 15px;
+    height: 15px;
+    background-color: gold;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.dot3{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.right p{
+    display: flex;
+    margin-left: 110px;
+    margin-top: -40px;
+    color: beige;
+}

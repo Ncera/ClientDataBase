@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.icons{
+    display: flex;
+
+    align-items: center;
+}
+
+.images{
+    width: 43px;
+    height: 43px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.labels{
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.line{
+    width: 340px;
+    margin-left: 60px;
+    border: 1px solid rgb(245, 239, 239);
+}
