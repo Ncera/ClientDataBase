@@ -1,0 +1,40 @@
+<div mat-dialog-title>
+    <h1>Client Form</h1>
+</div>
+<form [formGroup]="clientForm" (ngSubmit)="onFormSubmit()">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field appearance="outline">
+          <mat-label>First Name</mat-label>
+          <input matInput type="text" placeholder="eg. Bonginkosi" formControlName="firstName">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Last Name</mat-label>
+          <input matInput placeholder="eg. Zulu" formControlName="lastName">
+        </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input matInput type="email" placeholder="eg. B.Zulu@gmail.com" formControlName="email">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Phone No</mat-label>
+          <input matInput type="number" placeholder="eg. 0684562333" formControlName="phoneNo">
+        </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-radio-group aria-label="Select an option" formControlName="gender">
+          <mat-label><b>Gender</b></mat-label>
+          <mat-radio-button value="Male">Male</mat-radio-button>
+          <mat-radio-button value="female">Female</mat-radio-button>
+        </mat-radio-group>      
+    </div>
+  </div>
+  <div mat-dialog-actions class="action">
+      <button mat-raised-button>Cancel</button>
+      <button mat-raised-button color="primary" type="submit">Save</button>
+  </div>
+</form>
