@@ -16,5 +16,46 @@
   "profile": {
     "name": "typicode"
   },
-  "clients": []
+  "clients": [
+    {
+      "firstName": "Ukho",
+      "lastName": "Vilakazi",
+      "email": "Ukho.V@gmail.com",
+      "phoneNo": 747458888,
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "firstName": "Lelethu",
+      "lastName": "Ndosi",
+      "email": "L.Ndosi@gmail.com",
+      "phoneNo": 784443322,
+      "gender": "female",
+      "id": 8
+    },
+    {
+      "firstName": "JD",
+      "lastName": "Jordan",
+      "email": "Jordan@gmail.com",
+      "phoneNo": 760740020,
+      "gender": "male",
+      "id": 9
+    },
+    {
+      "firstName": "Nana",
+      "lastName": "Zulu",
+      "email": "N.Zulu@gmail.com",
+      "phoneNo": 832424564,
+      "gender": "female",
+      "id": 10
+    },
+    {
+      "firstName": "Themba",
+      "lastName": "Dube",
+      "email": "Dube@gmail.com",
+      "phoneNo": 645454999,
+      "gender": "male",
+      "id": 11
+    }
+  ]
 }
