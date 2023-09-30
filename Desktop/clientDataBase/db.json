@@ -56,6 +56,14 @@
       "phoneNo": 645454999,
       "gender": "male",
       "id": 11
+    },
+    {
+      "firstName": "Nana",
+      "lastName": "Zulu",
+      "email": "N.Zulu@gmail.com",
+      "phoneNo": 832424564,
+      "gender": "female",
+      "id": 12
     }
   ]
 }
